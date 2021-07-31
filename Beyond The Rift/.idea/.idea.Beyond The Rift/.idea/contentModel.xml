@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\erika\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\erika\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Beyond The Rift.-255680587.00" t="ExcludeRecursive" />
+    <e p="C:\Users\erika\OneDrive\Desktop\IAT-313_Beyond-The-Rift\Beyond The Rift" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Camera Scripts" t="Include">
+          <e p="Camera2DFollow.cs" t="Include" />
+          <e p="Parallaxing.cs" t="Include" />
+        </e>
+        <e p="Free Fantasy Character" t="Include">
+          <e p="BURLY-MAN_1_swordsman" t="Include">
+            <e p="Free_GM.cs" t="Include" />
+          </e>
+          <e p="Demo_GameResource" t="Include">
+            <e p="Script" t="Include">
+              <e p="CharacterController_2D.cs" t="Include" />
+              <e p="ColliderEvent_Sender.cs" t="Include" />
+              <e p="Demo_GM.cs" t="Include" />
+              <e p="DestroyEffect.cs" t="Include" />
+              <e p="WoodDoll_Mgr.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Free Sprite-Based Environment" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="CamerController.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="NormalMappedSprite-Animated.shader" t="Include" />
+            <e p="NormalMappedTileAnimated.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Player Scripts" t="Include">
+          <e p="CharacterController2D.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Beyond The Rift.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
