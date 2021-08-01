@@ -9,6 +9,7 @@ public class Teleport : MonoBehaviour
     public GameObject clonePrefab;
 
     GameObject clone;
+    public TimeManager timeManager;
 
     Vector3 teleportPos;
 
@@ -37,6 +38,7 @@ public class Teleport : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             SendClone();
+            timeManager.DoSlowMotion();
         }
 
         if (Input.GetButtonDown("Fire3") && clone.GetComponent<TP_Clone>().colliding == false)

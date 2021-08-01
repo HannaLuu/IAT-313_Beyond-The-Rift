@@ -14,7 +14,7 @@ public class TP_Clone : MonoBehaviour
     bool isFlipped = false;
 
     SpriteRenderer sprite;
-
+    public TimeManager timeManager;
     public Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -45,11 +45,13 @@ public class TP_Clone : MonoBehaviour
         if (Input.GetButtonUp("Fire2"))
         {
             Destroy(gameObject);
+            timeManager.UndoSlowMotion();
         }
 
         if (Input.GetButtonDown("Fire3"))
         {
             Destroy(gameObject);
+            timeManager.UndoSlowMotion();
         }
 
         if (currentPosition.x >= (startPosition.x + teleportDistance) && isFlipped == false)

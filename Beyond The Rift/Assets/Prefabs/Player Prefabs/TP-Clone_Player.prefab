@@ -198,6 +198,7 @@ MonoBehaviour:
   colliding: 0
   startPosition: {x: 0, y: 0, z: 0}
   currentPosition: {x: 0, y: 0, z: 0}
+  timeManager: {fileID: 6640678703344605879, guid: 1ad6af071782a1a4b8859d15aabf4e67, type: 3}
   rb: {fileID: 72503594131631546}
 --- !u!1 &4638193032961785205
 GameObject:
