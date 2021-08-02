@@ -16,6 +16,7 @@ public class TP_Clone : MonoBehaviour
     SpriteRenderer sprite;
     public TimeManager timeManager;
     public Rigidbody2D rb;
+    public Teleport teleportScript;
 
     // Start is called before the first frame update
     void Start()
@@ -44,12 +45,14 @@ public class TP_Clone : MonoBehaviour
 
         if (Input.GetButtonUp("Fire2"))
         {
+            teleportScript.teleportMode = false;
             Destroy(gameObject);
             timeManager.UndoSlowMotion();
         }
 
         if (Input.GetButtonDown("Fire3"))
         {
+            teleportScript.teleportMode = false;
             Destroy(gameObject);
             timeManager.UndoSlowMotion();
         }

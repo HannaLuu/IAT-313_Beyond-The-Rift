@@ -11,6 +11,8 @@ public class Teleport : MonoBehaviour
     GameObject clone;
     public TimeManager timeManager;
 
+    public bool teleportMode = false;
+
     Vector3 teleportPos;
 
     // Start is called before the first frame update
@@ -38,11 +40,13 @@ public class Teleport : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             SendClone();
+            teleportMode = true;
             timeManager.DoSlowMotion();
         }
 
         if (Input.GetButtonDown("Fire3") && clone.GetComponent<TP_Clone>().colliding == false)
         {
+            teleportMode = false;
             Teleport();
         }
 

@@ -19,6 +19,12 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
+        TrainingDummy td = hitInfo.GetComponent<TrainingDummy>();
+        if (td != null)
+        {
+            td.TakeDamage(damage);
+        }
+
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
         {

@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
-    public float slowdownFactor = 0.05f;
-    public float slowdownLength = 2f;
+    public float slowdownFactor = 0.4f;
 
     public void UndoSlowMotion()
     {

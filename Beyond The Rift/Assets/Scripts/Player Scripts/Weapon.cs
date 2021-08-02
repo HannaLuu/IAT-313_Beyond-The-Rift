@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
 
     public Transform firePoint;
 
     public GameObject bulletPrefab;
+
+    public Teleport teleportScript;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +22,13 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Time.time >= nextAttackTime && teleportScript.teleportMode == false)
         {
-            Shoot();
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Shoot();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 
