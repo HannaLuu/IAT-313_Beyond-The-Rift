@@ -8,10 +8,9 @@ public class Weapon : MonoBehaviour
     float nextAttackTime = 0f;
 
     public Transform firePoint;
-
     public GameObject bulletPrefab;
-
     public Teleport teleportScript;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +26,7 @@ public class Weapon : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 Shoot();
+                animator.SetTrigger("Attack");
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }

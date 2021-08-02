@@ -23,6 +23,7 @@ public class CharacterController2D : MonoBehaviour
 	[Space]
 
 	public UnityEvent OnLandEvent;
+	public Animator animator;
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -74,7 +75,7 @@ public class CharacterController2D : MonoBehaviour
 		}
 
 		//only control the player if grounded or airControl is turned on
-		if (m_Grounded || m_AirControl)
+		if (animator.GetBool("IsAttacking") == false && m_Grounded || m_AirControl)
 		{
 
 			// If crouching
