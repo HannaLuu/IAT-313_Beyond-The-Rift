@@ -17,6 +17,7 @@ public class TP_Clone : MonoBehaviour
     public TimeManager timeManager;
     public Rigidbody2D rb;
     public Teleport teleportScript;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,8 @@ public class TP_Clone : MonoBehaviour
         startPosition = transform.position;
 
         sprite = GetComponent<SpriteRenderer>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        teleportScript = player.GetComponent<Teleport>();
     }
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {

@@ -31,7 +31,7 @@ public class Teleport : MonoBehaviour
         //teleportPos = tpClone.transform.position;
         //teleportPos = clone.transform.position;
         //}
-
+        Debug.Log(teleportMode);
         if(clone != null)
         {
             teleportPos = clone.GetComponent<TP_Clone>().transform.position;

@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
 
 	public Animator animator;
 	public GameObject deathEffect;
-
 	public Transform player;
 
 	public bool isFlipped = false;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TrainingDummy : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class TrainingDummy : MonoBehaviour {
 
 	public GameObject deathEffect;
 
-	public void TakeDamage (int damage)
+    public void TakeDamage (int damage)
 	{
 		health -= damage;
 
@@ -20,6 +21,7 @@ public class TrainingDummy : MonoBehaviour {
 
 	void Die ()
 	{
+		DummyCounter.dummiesKilled = DummyCounter.dummiesKilled += 1;
 		Instantiate(deathEffect, transform.position, Quaternion.identity);
 		Destroy(gameObject);
 	}
