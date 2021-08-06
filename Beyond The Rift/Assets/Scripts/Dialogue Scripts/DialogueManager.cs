@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject choiceButton;
     public GameObject choiceBox;
     public bool isTalking = false;
-    private float dialogueSpeed = 20f;
+    private float dialogueSpeed = 50f;
 
     static Story story;
     Text speakerName;
@@ -60,6 +60,7 @@ public class DialogueManager : MonoBehaviour
     private void FinishDialogue()
     {
         Debug.Log("End of Dialogue!");
+        changeScene();
     }
 
     // Advance through the story
@@ -148,6 +149,13 @@ public class DialogueManager : MonoBehaviour
     {
         CharacterManager charManager = GameObject.FindObjectOfType<CharacterManager>();
         charManager.SwitchSpeakerSprite(_name);
+    }
+
+    // Call change scene from scene changer class
+    void changeScene()
+    {
+        SceneChanger sceneChanger = GameObject.FindObjectOfType<SceneChanger>();
+        sceneChanger.FuckScene();
     }
 }
 

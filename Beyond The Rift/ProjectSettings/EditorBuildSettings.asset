@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Training Minigame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 0f64d622840b8e747ad7c5d94b2de920
+  - enabled: 1
+    path: Assets/Scenes/Final Minigame.unity
+    guid: d3abb51d6359387478bcf548d20d8f96
+  - enabled: 1
+    path: Assets/Scenes/Opening-Scene.unity
+    guid: 9f696f98967332d40b86b6390bfd164f
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 3c7c38d9ed3651b45804c7b46e89a6b5
+  - enabled: 1
+    path: Assets/Scenes/testscene.unity
+    guid: 78244479f79ebc64c89f4bd3d3919ae8
   m_configObjects: {}

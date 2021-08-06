@@ -8,6 +8,7 @@ public class CharacterManager : MonoBehaviour
     public Sprite speakerImage1;
     public Sprite speakerImage2;
     public Sprite speakerImage3;
+    public Sprite speakerImage4;
     Image myImage;
 
 
@@ -25,6 +26,7 @@ public class CharacterManager : MonoBehaviour
             case "Bjorn Ironhand":
                 myImage.sprite = speakerImage1;
                 break;
+
             case "Khajiit D'Amelio":
                 myImage.sprite = speakerImage2;
                 break;
@@ -32,6 +34,11 @@ public class CharacterManager : MonoBehaviour
             case "Mjoll D'Amelio":
                 myImage.sprite = speakerImage3;
                 break;
+
+            case "Rogue Riftwalker Leader":
+                myImage.sprite = speakerImage4;
+                break;
+
         }
     }
 }
