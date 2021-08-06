@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - TP-Clone_Player
-  - GameManager
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -13,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Obstacle
+  - 
+  - 
   - 
   - 
   - 
@@ -40,18 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 2249469801
-    locked: 0
-  - name: BG-Ground
-    uniqueID: 2891151057
-    locked: 0
-  - name: Ground
-    uniqueID: 904945701
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Foreground
-    uniqueID: 1364914615
     locked: 0
