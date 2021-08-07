@@ -1195,9 +1195,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1367674952}
     - target: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: clonePrefab
+      value: 
+      objectReference: {fileID: 2706097807650507347, guid: cd8f6cce6269569449a6d54c086c79eb, type: 3}
+    - target: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: timeManager
       value: 
       objectReference: {fileID: 1367179334}
+    - target: {fileID: 7763976907407910788, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5403234
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763976907407910791, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 35f1f8daca6f8874684bbb3a3efab203, type: 2}
     - target: {fileID: 7763976907407910792, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_Sprite
       value: 
