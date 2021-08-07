@@ -315,6 +315,7 @@ MonoBehaviour:
   speakerImage1: {fileID: 21300000, guid: 4192b49748bda494aa2ef9e0860e041b, type: 3}
   speakerImage2: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
   speakerImage3: {fileID: 21300000, guid: f7dc0288be3f488429e49459ee759b64, type: 3}
+  speakerImage4: {fileID: 21300000, guid: 1c0810f1f4ba5bd40a23940c53d41433, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67362e7d435bf5e4a865a4bd6cff90b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkFile: {fileID: 4900000, guid: fafd1a8016b0ed8459f305ca7d60f944, type: 3}
+  inkFile: {fileID: 4900000, guid: 7a649ba6dc250554bba32a8032582e65, type: 3}
   dialogueBox: {fileID: 1799419100}
   choiceButton: {fileID: 4078087411752167318, guid: 2376e3d4f10c28740a23a4e9a52db39a, type: 3}
   choiceBox: {fileID: 1931245209}
