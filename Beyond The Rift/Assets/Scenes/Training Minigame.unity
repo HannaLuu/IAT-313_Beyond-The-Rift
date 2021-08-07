@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.z
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1044912133}
   damping: 0.3
-  lookAheadFactor: 3
+  lookAheadFactor: 4
   lookAheadReturnSpeed: 0.1
   lookAheadMoveThreshold: 0.1
   yPosRestriction: -1
@@ -533,7 +533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9, y: -1, z: -10}
+  m_LocalPosition: {x: -9, y: -0.75, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.96
+      value: -1.74
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1186,7 +1186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.19
+      value: -0.983
       objectReference: {fileID: 0}
     - target: {fileID: 6105819751395985534, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3135,7 +3135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910793, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910793, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_LocalPosition.z

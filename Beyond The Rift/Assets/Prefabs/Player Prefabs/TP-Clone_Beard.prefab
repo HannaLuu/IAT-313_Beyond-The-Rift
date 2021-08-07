@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 5565349924376552997}
   - component: {fileID: -3910099957913960749}
   m_Layer: 6
-  m_Name: TP-Clone_Player
+  m_Name: TP-Clone_Beard
   m_TagString: TP-Clone_Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 3042720846474683189, guid: 33b20fadf79444d498bdf3ba65d17d50, type: 3}
+  m_Sprite: {fileID: -1002721484818444686, guid: 4f68f06e2068fa748a367e23b222bb41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_FlipX: 0
   m_FlipY: 0
