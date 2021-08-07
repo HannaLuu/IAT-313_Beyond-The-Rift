@@ -15,39 +15,47 @@ public class Teleport : MonoBehaviour
 
     Vector3 teleportPos;
 
+    public ManaBar manaBar;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //GameObject tpClone = GameObject.FindGameObjectWithTag("TP-Clone_Player");
-
-        //if(tpClone)
-        //{
-        //teleportPos = tpClone.transform.position;
-        //teleportPos = clone.transform.position;
-        //}
-        Debug.Log(teleportMode);
+        Debug.Log(manaBar.SpendMana);
+        //Debug.Log(teleportMode);
         if(clone != null)
         {
             teleportPos = clone.GetComponent<TP_Clone>().transform.position;
         }
 
-        if (Input.GetButtonDown("Fire2"))
+        if(manaBar.manaAmount <= 0f)
+        {
+            teleportMode = false;
+        }
+
+        if (Input.GetButtonDown("Fire2") && manaBar.CanSpendMana(manaBar.manaCost) == true)
         {
             SendClone();
             teleportMode = true;
+            manaBar.SpendMana = true;
             timeManager.DoSlowMotion();
         }
 
         if (Input.GetButtonDown("Fire3") && clone.GetComponent<TP_Clone>().colliding == false)
         {
             teleportMode = false;
+            manaBar.SpendMana = false;
             Teleport();
+        }
+
+        if (teleportMode == false)
+        {
+            manaBar.SpendMana = false;
         }
 
         void SendClone()

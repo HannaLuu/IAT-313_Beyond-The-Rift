@@ -18,6 +18,7 @@ public class TP_Clone : MonoBehaviour
     public Rigidbody2D rb;
     public Teleport teleportScript;
     public GameObject player;
+    public ManaBar manaBar;
 
     // Start is called before the first frame update
     void Start()
@@ -46,9 +47,17 @@ public class TP_Clone : MonoBehaviour
     {
         currentPosition = transform.position;
 
+        if(teleportScript.teleportMode == false)
+        {
+            manaBar.SpendMana = false;
+            Destroy(gameObject);
+            timeManager.UndoSlowMotion();
+        }
+
         if (Input.GetButtonUp("Fire2"))
         {
             teleportScript.teleportMode = false;
+            manaBar.SpendMana = false;
             Destroy(gameObject);
             timeManager.UndoSlowMotion();
         }
@@ -56,6 +65,7 @@ public class TP_Clone : MonoBehaviour
         if (Input.GetButtonDown("Fire3"))
         {
             teleportScript.teleportMode = false;
+            manaBar.SpendMana = false;
             Destroy(gameObject);
             timeManager.UndoSlowMotion();
         }

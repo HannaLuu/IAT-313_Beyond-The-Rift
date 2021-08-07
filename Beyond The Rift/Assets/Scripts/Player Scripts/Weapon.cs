@@ -6,11 +6,13 @@ public class Weapon : MonoBehaviour
 {
     public float attackRate = 2f;
     float nextAttackTime = 0f;
+    public float manaCost = 20;
 
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Teleport teleportScript;
     public Animator animator;
+    public ManaBar manaBar;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,7 @@ public class Weapon : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 Shoot();
+                manaBar.SpendMana1(manaCost);
                 animator.SetTrigger("Attack");
                 nextAttackTime = Time.time + 1f / attackRate;
             }
@@ -35,6 +38,7 @@ public class Weapon : MonoBehaviour
     //shooting logic
     void Shoot()
     {
+        //manaBar.SpendMana1(manaCost);
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

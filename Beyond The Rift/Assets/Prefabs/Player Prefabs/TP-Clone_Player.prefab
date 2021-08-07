@@ -202,6 +202,7 @@ MonoBehaviour:
   rb: {fileID: 72503594131631546}
   teleportScript: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
   player: {fileID: 7763976907407910799, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+  manaBar: {fileID: 6809969876081867172, guid: dbb727165ad40e8478f746a91684ce87, type: 3}
 --- !u!1 &4638193032961785205
 GameObject:
   m_ObjectHideFlags: 0
