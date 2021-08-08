@@ -28,7 +28,7 @@ public class ManaBar : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(manaAmount);
+        // Debug.Log(manaAmount);
         Rect uvRect = barRawImage.uvRect;
         uvRect.x += 0.2f * Time.deltaTime;
         barRawImage.uvRect = uvRect;

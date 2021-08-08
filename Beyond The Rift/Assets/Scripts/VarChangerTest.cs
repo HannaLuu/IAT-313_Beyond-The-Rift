@@ -7,7 +7,7 @@ using Fungus;
 public class VarChangerTest : MonoBehaviour
 {
     public Flowchart myFlowchart;
-    private int rpValue;
+    private static int rpValue;
     Text rpValueText;
 
     private void Start()
@@ -15,16 +15,25 @@ public class VarChangerTest : MonoBehaviour
         rpValueText = GetComponent<Text>();
     }
 
+    public VarChangerTest()
+    {
+
+    }
+
     private void Update()
+    {
+        // if (isDead == true)
+        // {
+        //     updateRP();
+        // }
+    }
+
+    public virtual void updateRP()
     {
         rpValueText.text = "RP: " + rpValue;
         rpValue = myFlowchart.GetIntegerVariable("Var");
-
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-            rpValue += 3;
-            myFlowchart.SetIntegerVariable("Var", rpValue);
-            Debug.Log("RP: " + rpValue);
-        }
+        rpValue += 3;
+        myFlowchart.SetIntegerVariable("Var", rpValue);
+        Debug.Log("RP: " + rpValue);
     }
 }
