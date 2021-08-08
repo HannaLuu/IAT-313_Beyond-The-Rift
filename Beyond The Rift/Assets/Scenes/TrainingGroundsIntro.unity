@@ -2656,16 +2656,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 1
+  volume: 0.101
   loop: 1
   targetAudioSource: {fileID: 0}
   audioMode: 0
   beepSounds:
-  - {fileID: 8300000, guid: f6072507452ddb34d94d7e489a64cb95, type: 3}
-  - {fileID: 8300000, guid: 676aa652ae4303347b1877b9889f3522, type: 3}
-  - {fileID: 8300000, guid: df0958d72d8967b489d6007c9d1ad6c2, type: 3}
+  - {fileID: 8300000, guid: 362b672653ba3a24086b36c7e9ecf608, type: 3}
+  - {fileID: 8300000, guid: 9c8c694edcbd03a408496bbc4d155e83, type: 3}
+  - {fileID: 8300000, guid: c7e9d3267dae5714cb460c53342b48a8, type: 3}
   soundEffect: {fileID: 0}
-  inputSound: {fileID: 8300000, guid: 676aa652ae4303347b1877b9889f3522, type: 3}
+  inputSound: {fileID: 8300000, guid: 9c8c694edcbd03a408496bbc4d155e83, type: 3}
 --- !u!114 &1821432249
 MonoBehaviour:
   m_ObjectHideFlags: 0

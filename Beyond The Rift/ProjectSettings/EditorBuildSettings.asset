@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Opening-Scene.unity
     guid: 9f696f98967332d40b86b6390bfd164f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TrainingGrounds.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: 3c7c38d9ed3651b45804c7b46e89a6b5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/testscene.unity
     guid: 78244479f79ebc64c89f4bd3d3919ae8
   - enabled: 1
