@@ -293,6 +293,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4099914964447659208, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1573
+      objectReference: {fileID: 0}
     - target: {fileID: 4099914964488301701, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
       propertyPath: m_Name
       value: Stage
@@ -341,10 +345,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4099914964696103655, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -765
+      objectReference: {fileID: 0}
     - target: {fileID: 4099914964915884429, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2054179988}
+    - target: {fileID: 4099914965799878349, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 747
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099914965823559687, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1570
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
 --- !u!1 &744385602
