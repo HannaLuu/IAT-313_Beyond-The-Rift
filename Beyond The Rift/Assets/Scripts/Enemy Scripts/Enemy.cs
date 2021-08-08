@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
 
 	public void LookAtPlayer()
     {
+		Debug.Log("LOOK AT ME BITCH");
 		Vector3 flipped = transform.localScale;
 		flipped.z *= -1f;
 

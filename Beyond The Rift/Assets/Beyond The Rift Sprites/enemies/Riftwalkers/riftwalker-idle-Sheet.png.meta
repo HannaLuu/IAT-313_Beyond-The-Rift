@@ -114,7 +114,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -133,9 +133,9 @@ TextureImporter:
       name: riftwalker-idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 148
+        x: 64
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,9 +154,9 @@ TextureImporter:
       name: riftwalker-idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 296
+        x: 128
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -175,9 +175,9 @@ TextureImporter:
       name: riftwalker-idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 444
+        x: 192
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -196,9 +196,9 @@ TextureImporter:
       name: riftwalker-idle-Sheet_4
       rect:
         serializedVersion: 2
-        x: 592
+        x: 256
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -217,9 +217,9 @@ TextureImporter:
       name: riftwalker-idle-Sheet_5
       rect:
         serializedVersion: 2
-        x: 740
+        x: 320
         y: 0
-        width: 148
+        width: 64
         height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
