@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class DialogueManager : MonoBehaviour
     List<string> tags;
     static Choice choiceSelected;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,13 +30,52 @@ public class DialogueManager : MonoBehaviour
         tags = new List<string>();
         choiceSelected = null;
 
-        // Automaticall start dialogue from first speaker when starting the scene
+        InitializeRP();
+
+        // Automatically start dialogue from first speaker when starting the scene
         AdvanceDialogue();
+    }
+
+    //
+    void rpListener()
+    {
+        story.ObserveVariable("relationshipPoints", (arg, value) =>
+            {
+                Debug.Log($"Value updated. Relationship Points: {value}");
+            });
+    }
+
+    //
+    private int _rp;
+    public int relationshipPoints
+    {
+
+        get => _rp;
+        private set
+        {
+            Debug.Log($"Updating relationship points value. Old value: {_rp}, new value: {value}");
+            _rp = value;
+        }
+    }
+
+    //
+    private void InitializeRP()
+    {
+        relationshipPoints = (int)story.variablesState["relationshipPoints"];
+
+        story.ObserveVariable("relationshipPoints", (arg, value) =>
+        {
+            relationshipPoints = (int)value;
+        });
+
     }
 
     //
     private void Update()
     {
+
+        rpListener();
+
         if (Input.GetKeyDown(KeyCode.KeypadEnter))
         {
 
@@ -48,6 +89,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     StartCoroutine(ShowChoices());
                 }
+
             }
             else
             {
@@ -60,7 +102,7 @@ public class DialogueManager : MonoBehaviour
     private void FinishDialogue()
     {
         Debug.Log("End of Dialogue!");
-        changeScene();
+        // changeScene();
     }
 
     // Advance through the story
@@ -157,5 +199,8 @@ public class DialogueManager : MonoBehaviour
         SceneChanger sceneChanger = GameObject.FindObjectOfType<SceneChanger>();
         sceneChanger.FuckScene();
     }
+
+
 }
+
 
