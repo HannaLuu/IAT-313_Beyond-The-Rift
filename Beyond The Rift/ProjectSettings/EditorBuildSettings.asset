@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testscene.unity
     guid: 78244479f79ebc64c89f4bd3d3919ae8
+  - enabled: 1
+    path: Assets/Scenes/testingbitch.unity
+    guid: d3647f3ccd02e0a4aaddf8bedb78ba6a
+  - enabled: 1
+    path: Assets/Scenes/testingbitch3.unity
+    guid: 4344548dde176854ba7283644c8a4fd7
   m_configObjects: {}
