@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
 
         if (timeStart <= 0)
         {
-            myFlowchart.ExecuteBlock("Finish Training");
+            myFlowchart.ExecuteBlock("Finish Minigame");
         }
     }
 }

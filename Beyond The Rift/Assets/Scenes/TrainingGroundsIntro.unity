@@ -904,7 +904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
+  m_AnchoredPosition: {x: -600, y: -1000}
   m_SizeDelta: {x: 1000, y: 770.85}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &905732350
@@ -1240,6 +1240,11 @@ GameObject:
   - component: {fileID: 1289771284}
   - component: {fileID: 1289771288}
   - component: {fileID: 1289771251}
+  - component: {fileID: 1289771255}
+  - component: {fileID: 1289771253}
+  - component: {fileID: 1289771252}
+  - component: {fileID: 1289771256}
+  - component: {fileID: 1289771257}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1265,7 +1270,7 @@ MonoBehaviour:
     Mace, was a broken man.
   description: 
   character: {fileID: 2112609730}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1304,9 +1309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 171.26277
+    x: 169.94698
     y: -42.40564
-    width: 102.10523
+    width: 142.10522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1325,7 +1330,12 @@ MonoBehaviour:
   - {fileID: 1289771250}
   - {fileID: 1289771275}
   - {fileID: 1289771278}
+  - {fileID: 1289771255}
+  - {fileID: 1289771253}
+  - {fileID: 1289771252}
   - {fileID: 1289771276}
+  - {fileID: 1289771256}
+  - {fileID: 1289771257}
   - {fileID: 1289771251}
   suppressAllAutoSelections: 0
 --- !u!114 &1289771248
@@ -1353,8 +1363,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1289771282}
-  selectedCommands: []
+  - {fileID: 1289771247}
+  selectedCommands:
+  - {fileID: 1289771257}
   variables:
   - {fileID: 1289771254}
   description: 
@@ -1399,7 +1410,7 @@ MonoBehaviour:
     Teleporting...and this voice in my head. It keeps speaking to me."
   description: 
   character: {fileID: 1197362014}
-  portrait: {fileID: 21300000, guid: 4192b49748bda494aa2ef9e0860e041b, type: 3}
+  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1434,6 +1445,60 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1289771252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  storyText: 'Why have the Gods cursed me with a barren head? '
+  description: 
+  character: {fileID: 1197362014}
+  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1289771253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: What is it?
+  description: 
+  character: {fileID: 2112609730}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1289771254
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1449,6 +1514,88 @@ MonoBehaviour:
   scope: 1
   key: RelationshipPoints
   value: 0
+--- !u!114 &1289771255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: Wait - there's just one more thing I don't understand.
+  description: 
+  character: {fileID: 1197362014}
+  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1289771256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: Haha, very funny. Heard that damn fable a million times. Let's go train.
+  description: 
+  character: {fileID: 1197362014}
+  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1289771257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: Let's see how well you do. Perform well, and those skills may aid you
+    in the future...
+  description: 
+  character: {fileID: 2112609730}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1289771273
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1487,7 +1634,7 @@ MonoBehaviour:
     the Rifts, you were still in her womb. You must have absorbed...something.
   description: 
   character: {fileID: 2112609730}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1511,10 +1658,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: ...Yes.
+  storyText: Heh heh...you look like the Egg Knight-
   description: 
-  character: {fileID: 1197362014}
-  portrait: {fileID: 21300000, guid: 4192b49748bda494aa2ef9e0860e041b, type: 3}
+  character: {fileID: 2112609730}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1542,7 +1689,7 @@ MonoBehaviour:
     again. '
   description: 
   character: {fileID: 2112609730}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1566,10 +1713,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: ' Anyhow, let us start training, shall we?'
+  storyText: Anyhow, let us start training, shall we?
   description: 
   character: {fileID: 2112609730}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1599,7 +1746,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 2112609730}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1627,11 +1774,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 2112609730}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 636b282c0b1f35a4cb7f6ef946994558, type: 3}
+  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
   offset: 0
   fromPosition: {fileID: 1781456795}
   toPosition: {fileID: 1629110067}
-  facing: 1
+  facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -1674,7 +1821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321.22815
     y: -46.404034
-    width: 86.315765
+    width: 126.315765
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1704,11 +1851,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1197362014}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4192b49748bda494aa2ef9e0860e041b, type: 3}
+  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
   offset: 0
   fromPosition: {fileID: 1894788925}
   toPosition: {fileID: 905732349}
-  facing: 2
+  facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -2307,7 +2454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
+  m_AnchoredPosition: {x: 600, y: -1000}
   m_SizeDelta: {x: 1000, y: 770.85}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1629110068

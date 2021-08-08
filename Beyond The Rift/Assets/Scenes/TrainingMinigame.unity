@@ -909,7 +909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102
     y: 91
-    width: 100.10988
+    width: 140.10988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -952,8 +952,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1657018709}
-  selectedCommands:
-  - {fileID: 1657018710}
+  selectedCommands: []
   variables:
   - {fileID: 1657018706}
   - {fileID: 1657018721}
@@ -1046,9 +1045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 307
+    x: 255.35135
     y: 92
-    width: 83.626366
+    width: 123.626366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1279,14 +1278,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 476
-    y: 108
-    width: 90.21977
+    x: 391.38455
+    y: 91.5165
+    width: 139.01099
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 10
-  blockName: Finish Training
+  blockName: Finish Minigame
   description: 
   eventHandler: {fileID: 0}
   commandList:
