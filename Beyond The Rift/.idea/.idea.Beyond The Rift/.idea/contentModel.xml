@@ -1205,6 +1205,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="Bullet Scripts" t="Include">
             <e p="Bullet.cs" t="Include" />
             <e p="DestroyOnExit.cs" t="Include" />
@@ -1246,6 +1247,7 @@
             <e p="Weapon.cs" t="Include" />
           </e>
           <e p="SceneChanger.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
           <e p="Training Level Scripts" t="Include">
             <e p="DummyCounter.cs" t="Include" />
           </e>
@@ -1254,6 +1256,7 @@
             <e p="ManaBar.cs" t="Include" />
           </e>
           <e p="VarChangerTest.cs" t="Include" />
+          <e p="VideoScript.cs" t="Include" />
         </e>
         <e p="Tests" t="Include">
           <e p="Editor" t="Include">

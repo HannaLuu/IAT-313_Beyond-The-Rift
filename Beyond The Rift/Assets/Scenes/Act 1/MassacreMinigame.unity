@@ -1544,12 +1544,16 @@ PrefabInstance:
       value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 2553076118239934163, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 142.1387
+      objectReference: {fileID: 0}
+    - target: {fileID: 2553076118239934163, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
       propertyPath: m_SizeDelta.y
       value: 98.0723
       objectReference: {fileID: 0}
     - target: {fileID: 2553076118239934163, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.14
+      value: 2.3107
       objectReference: {fileID: 0}
     - target: {fileID: 2553076118239934163, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4472,7 +4476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFlowchart: {fileID: 961618950}
-  timeStart: 5
+  timeStart: 20
   timeText: {fileID: 1692551251}
 --- !u!1 &1709155155
 GameObject:
