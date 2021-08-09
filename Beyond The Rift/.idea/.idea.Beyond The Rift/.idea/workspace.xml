@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdc1949-3ba2-4619-836f-58f34b0b0c3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/MenuDialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/MenuDialog.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/RP Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/RP Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/SayDialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/SayDialog.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Minigame-UI_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Minigame-UI_Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 3/Happy Ending/HappyEnding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 3/Happy Ending/HappyEnding.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/RP Image.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/RP Image.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 1/FirstPossession.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 1/FirstPossession.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 2/Final Minigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 2/Final Minigame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MassacreScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MassacreScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/EnemyCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MassacreScript.cs" />
       </list>
     </option>
   </component>
@@ -34,6 +37,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -65,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628485889234</updated>
       <workItem from="1628485902150" duration="505000" />
-      <workItem from="1628500638873" duration="38000" />
+      <workItem from="1628500638873" duration="664000" />
     </task>
     <servers />
   </component>

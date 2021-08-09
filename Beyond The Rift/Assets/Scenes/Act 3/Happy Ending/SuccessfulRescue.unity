@@ -380,6 +380,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: RP Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856598, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 201.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856598, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -130.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856599, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856599, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856599, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658515209092856599, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
 --- !u!1 &635938592 stripped

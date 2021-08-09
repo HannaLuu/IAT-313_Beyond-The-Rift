@@ -1581,15 +1581,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982583, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 26
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 670.9
+      value: 670.9001
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: -73
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683570849672, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_Text
@@ -1625,7 +1625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265036, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 8371857684153365591, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_LocalScale.x
