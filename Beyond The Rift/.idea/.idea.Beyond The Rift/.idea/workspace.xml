@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdc1949-3ba2-4619-836f-58f34b0b0c3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Beyond The Rift/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fungus/EditorResources/FungusEditorResources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fungus/EditorResources/FungusEditorResources.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fungus/EditorResources/FungusEditorResources.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fungus/EditorResources/FungusEditorResources.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fungus/Integrations/Playmaker/Fungus-PlayMaker.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fungus/Integrations/Spine/Fungus-Spine.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 1/FirstPossession.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 1/FirstPossession.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 1/MassacreMinigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 1/MassacreMinigame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/EnemyCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/EnemyCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Final Minigame Scripts/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InkSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InkSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/MenuDialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/MenuDialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/RP Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/RP Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/SayDialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fungus Prefabs/SayDialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Minigame-UI_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Minigame-UI_Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Act 3/Happy Ending/HappyEnding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Act 3/Happy Ending/HappyEnding.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628485889234</updated>
       <workItem from="1628485902150" duration="505000" />
+      <workItem from="1628500638873" duration="38000" />
     </task>
     <servers />
   </component>

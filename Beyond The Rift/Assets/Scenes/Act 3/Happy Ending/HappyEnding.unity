@@ -1568,48 +1568,64 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8371857683407982583, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: m_Text
+      value: Lokir Ironhand
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857683407982583, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 39c5cbe13986b984f87da06d6e41ca66, type: 3}
     - target: {fileID: 8371857683407982583, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_FontData.m_MinSize
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982583, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 34
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 642
+      value: 670.9
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -78
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683570849672, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265034, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: m_Text
+      value: Papa, Can I ride the fishing boat? kfajlsdjflkafjasdklfjlsakdfjlaskfjlsadkjflaksdfjlasdkjflaksdjfl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857683646265034, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857683646265034, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 54
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857683646265034, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265036, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -180
+      value: -244.06967
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265036, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -100
+      value: -71.89999
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265036, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683646265036, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8371857684153365591, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_LocalScale.x
