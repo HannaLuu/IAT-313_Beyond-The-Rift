@@ -17,6 +17,7 @@ public class EnemyWeapon : MonoBehaviour
         if (colInfo != null)
         {
             colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+            Debug.Log("HIT");
         }
     }
 

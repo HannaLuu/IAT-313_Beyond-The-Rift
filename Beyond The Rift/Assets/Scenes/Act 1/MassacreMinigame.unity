@@ -2474,7 +2474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 105
+    width: 107.44681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2499,11 +2499,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 324.383, y: 263.95752}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2623,7 +2623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305
     y: 81
-    width: 132
+    width: 144.68085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: LonelyPeak
+    stringVal: PostMassacre
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1 &988828655

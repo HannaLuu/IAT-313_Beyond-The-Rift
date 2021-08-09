@@ -28,4 +28,19 @@ public class Timer : MonoBehaviour
             myFlowchart.ExecuteBlock("Finish Minigame");
         }
     }
+
+    public void increaseTimer1()
+    {
+        timeStart += 10;
+    }
+
+    public void increaseTimer2()
+    {
+        timeStart += 5;
+    }
+
+    public void decreaseTimer()
+    {
+        timeStart -= 10;
+    }
 }
