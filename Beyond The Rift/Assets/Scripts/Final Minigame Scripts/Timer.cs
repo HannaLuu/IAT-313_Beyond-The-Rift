@@ -30,11 +30,11 @@ public class Timer : MonoBehaviour
 
         if (timeStart <= 0)
         {
-            if (EnemyCounter.enemiesKilled > 18)
+            if (EnemyCounter.enemiesKilled > 15)
             {
                 SceneManager.LoadScene("SuccessfulRescue");
             }
-            else if (EnemyCounter.enemiesKilled < 18)
+            else if (EnemyCounter.enemiesKilled < 15)
             {
                 SceneManager.LoadScene("FailedRescue");
             }
