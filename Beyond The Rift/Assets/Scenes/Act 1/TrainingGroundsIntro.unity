@@ -842,18 +842,16 @@ GameObject:
   - component: {fileID: 1289771277}
   - component: {fileID: 1289771278}
   - component: {fileID: 1289771279}
-  - component: {fileID: 1289771282}
-  - component: {fileID: 1289771281}
   - component: {fileID: 1289771280}
   - component: {fileID: 1289771283}
   - component: {fileID: 1289771284}
-  - component: {fileID: 1289771288}
-  - component: {fileID: 1289771251}
   - component: {fileID: 1289771255}
   - component: {fileID: 1289771253}
   - component: {fileID: 1289771252}
   - component: {fileID: 1289771256}
   - component: {fileID: 1289771257}
+  - component: {fileID: 1289771258}
+  - component: {fileID: 1289771251}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -920,7 +918,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.15753
     y: -43.721428
-    width: 142.10522
+    width: 102.10523
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -945,6 +943,7 @@ MonoBehaviour:
   - {fileID: 1289771276}
   - {fileID: 1289771256}
   - {fileID: 1289771257}
+  - {fileID: 1289771258}
   - {fileID: 1289771251}
   suppressAllAutoSelections: 0
 --- !u!114 &1289771248
@@ -972,7 +971,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1289771282}
+  - {fileID: 1289771247}
   selectedCommands: []
   variables:
   - {fileID: 1289771254}
@@ -1037,22 +1036,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289771244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
+  itemId: 54
   indentLevel: 0
-  text: Begin Training
-  description: 
-  targetBlock: {fileID: 1289771282}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: TrainingMinigame
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1289771252
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1204,6 +1197,22 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1289771258
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  key: rip
+  variable: {fileID: 1289771254}
 --- !u!114 &1289771273
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1394,53 +1403,6 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &1289771281
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289771244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 39
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: TrainingMinigame
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1289771282
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289771244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 321.22815
-    y: -46.404034
-    width: 126.315765
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 38
-  blockName: Begin Training
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1289771288}
-  - {fileID: 1289771281}
-  suppressAllAutoSelections: 0
 --- !u!114 &1289771283
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1491,22 +1453,6 @@ MonoBehaviour:
   useDefaultSettings: 1
   fadeDuration: 0
   waitUntilFinished: 0
---- !u!114 &1289771288
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289771244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  key: rip
-  variable: {fileID: 1289771254}
 --- !u!1001 &1311542246
 PrefabInstance:
   m_ObjectHideFlags: 0
