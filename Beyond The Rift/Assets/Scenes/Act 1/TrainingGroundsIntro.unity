@@ -1074,7 +1074,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1289771247}
   selectedCommands:
-  - {fileID: 1289771261}
+  - {fileID: 1289771260}
   variables:
   - {fileID: 1289771254}
   description: 
@@ -1378,7 +1378,7 @@ MonoBehaviour:
   itemId: 57
   indentLevel: 0
   volume: 0.1
-  fadeDuration: 0.5
+  fadeDuration: 0
   waitUntilFinished: 1
 --- !u!114 &1289771273
 MonoBehaviour:
@@ -1989,7 +1989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 741, y: -1350}
+  m_AnchoredPosition: {x: 741, y: -1300}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1629110068
@@ -2269,7 +2269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1570, y: -1350}
+  m_AnchoredPosition: {x: 1570, y: -1300}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1781456796

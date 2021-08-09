@@ -522,6 +522,10 @@ GameObject:
   - component: {fileID: 403056715}
   - component: {fileID: 403056716}
   - component: {fileID: 403056717}
+  - component: {fileID: 403056718}
+  - component: {fileID: 403056720}
+  - component: {fileID: 403056719}
+  - component: {fileID: 403056721}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -648,6 +652,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 403056663}
   commandList:
+  - {fileID: 403056721}
   - {fileID: 403056667}
   - {fileID: 403056661}
   - {fileID: 403056660}
@@ -659,6 +664,7 @@ MonoBehaviour:
   - {fileID: 403056672}
   - {fileID: 403056673}
   - {fileID: 403056676}
+  - {fileID: 403056718}
   - {fileID: 403056677}
   - {fileID: 403056675}
   - {fileID: 403056674}
@@ -704,7 +710,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 403056700}
   selectedCommands:
-  - {fileID: 403056715}
+  - {fileID: 403056719}
   variables:
   - {fileID: 403056659}
   description: 
@@ -3287,8 +3293,10 @@ MonoBehaviour:
   - {fileID: 403056702}
   - {fileID: 403056701}
   - {fileID: 403056715}
-  - {fileID: 403056705}
+  - {fileID: 403056720}
+  - {fileID: 403056719}
   - {fileID: 403056716}
+  - {fileID: 403056705}
   - {fileID: 403056713}
   - {fileID: 403056704}
   - {fileID: 403056711}
@@ -3711,6 +3719,75 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &403056718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403056658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 241dd89a1ac9a7548bf77f6fffb48c36, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &403056719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403056658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b863939f8e049f143a473d905cb1a549, type: 3}
+  volume: 0.3
+  waitUntilFinished: 0
+--- !u!114 &403056720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403056658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: c2690d061f2b3b940a14e92e488623f5, type: 3}
+  volume: 0.2
+  waitUntilFinished: 0
+--- !u!114 &403056721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403056658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  volume: 0.1
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!1001 &555741195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4394,7 +4471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 642
+      value: 642.0001
       objectReference: {fileID: 0}
     - target: {fileID: 8371857683407982584, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5046,6 +5123,14 @@ PrefabInstance:
     - target: {fileID: 4099914965799878349, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099914965799878349, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099914965823559687, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80cfb77e02d131b489ca7c37a656c8f6, type: 3}

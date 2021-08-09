@@ -13,7 +13,6 @@ public class Weapon : MonoBehaviour
     public Teleport teleportScript;
     public Animator animator;
     public ManaBar manaBar;
-    public AudioManager audioManager;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +30,6 @@ public class Weapon : MonoBehaviour
                 Shoot();
                 manaBar.SpendMana1(manaCost);
                 animator.SetTrigger("Attack");
-                //audioManager.Play("PlayerAttack");
                 FindObjectOfType<AudioManager>().Play("PlayerAttack");
                 nextAttackTime = Time.time + 1f / attackRate;
             }

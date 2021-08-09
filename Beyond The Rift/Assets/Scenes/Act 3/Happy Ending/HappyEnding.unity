@@ -1170,6 +1170,9 @@ GameObject:
   - component: {fileID: 1845536362}
   - component: {fileID: 1845536363}
   - component: {fileID: 1845536364}
+  - component: {fileID: 1845536367}
+  - component: {fileID: 1845536366}
+  - component: {fileID: 1845536365}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1217,6 +1220,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1845536347}
   commandList:
+  - {fileID: 1845536367}
+  - {fileID: 1845536366}
+  - {fileID: 1845536365}
   - {fileID: 1845536356}
   - {fileID: 1845536351}
   - {fileID: 1845536357}
@@ -1259,7 +1265,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1845536348}
   selectedCommands:
-  - {fileID: 1845536364}
+  - {fileID: 1845536365}
   variables: []
   description: 
   stepPause: 0
@@ -1656,6 +1662,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
+--- !u!114 &1845536365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845536346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: e1ca9a273fe56a840802716c3e87bb5f, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0.37
+--- !u!114 &1845536366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845536346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 847e0d9ec9bdada48b994e891880f813, type: 3}
+  atTime: 0
+  loop: 0
+  fadeDuration: 0
+--- !u!114 &1845536367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845536346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  volume: 0.2
+  fadeDuration: 0.1
+  waitUntilFinished: 1
 --- !u!1001 &1903048898
 PrefabInstance:
   m_ObjectHideFlags: 0

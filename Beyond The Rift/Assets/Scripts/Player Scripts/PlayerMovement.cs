@@ -26,11 +26,11 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            jump = true;
-            animator.SetBool("IsJumping", true);
-        }
+        //if (Input.GetButtonDown("Jump"))
+        //{
+        //    jump = true;
+        //    animator.SetBool("IsJumping", true);
+        //}
 
         // CROUCH CODE IF WE WANNA DO IT BUT I DOUBT IT
         //if (Input.GetButtonDown("Crouch"))

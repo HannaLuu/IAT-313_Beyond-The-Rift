@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 8601962794424632786, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1350
+      objectReference: {fileID: 0}
     - target: {fileID: 8601962794448397080, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 890
@@ -211,9 +215,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -500
       objectReference: {fileID: 0}
+    - target: {fileID: 8601962795501961720, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
+      objectReference: {fileID: 0}
     - target: {fileID: 8601962795756928983, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -916
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601962795756928983, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
       objectReference: {fileID: 0}
     - target: {fileID: 8601962795797551000, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_RootOrder
@@ -530,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1342277693256394728, guid: 51a4ad73e9c1f984599ba5152635e7b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.23
+      value: -31.920002
       objectReference: {fileID: 0}
     - target: {fileID: 1342277693256394728, guid: 51a4ad73e9c1f984599ba5152635e7b8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -707,7 +719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910793, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.44
+      value: -34.13
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910793, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1433,7 +1445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422642540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.84, y: -3.01, z: 0}
+  m_LocalPosition: {x: -32.530003, y: -3.01, z: 0}
   m_LocalScale: {x: -2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1465,6 +1477,8 @@ GameObject:
   - component: {fileID: 1532982665}
   - component: {fileID: 1532982666}
   - component: {fileID: 1532982667}
+  - component: {fileID: 1532982669}
+  - component: {fileID: 1532982668}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1503,7 +1517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 124
+    width: 84
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1512,6 +1526,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1532982650}
   commandList:
+  - {fileID: 1532982669}
+  - {fileID: 1532982668}
   - {fileID: 1532982655}
   - {fileID: 1532982656}
   - {fileID: 1532982657}
@@ -1542,7 +1558,7 @@ MonoBehaviour:
   scrollPos: {x: 19, y: 14}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 607
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1553,7 +1569,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1532982651}
   selectedCommands:
-  - {fileID: 1532982664}
+  - {fileID: 1532982668}
   variables:
   - {fileID: 1532982654}
   description: 
@@ -1914,6 +1930,41 @@ MonoBehaviour:
     stringVal: Final Minigame
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1532982668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532982649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: d95be6498791b974fa0bf3e091462ba1, type: 3}
+  atTime: 54
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1532982669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532982649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  volume: 0.2
+  fadeDuration: 0.1
+  waitUntilFinished: 1
 --- !u!1 &1590888871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6658515209092856597, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}

@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 785
       objectReference: {fileID: 0}
+    - target: {fileID: 8601962794424632786, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1350
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601962794448397080, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1350
+      objectReference: {fileID: 0}
     - target: {fileID: 8601962795017120402, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_Camera
       value: 
@@ -145,6 +153,14 @@ PrefabInstance:
     - target: {fileID: 8601962795501961720, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -860
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601962795501961720, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601962795756928983, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1300
       objectReference: {fileID: 0}
     - target: {fileID: 8601962795797551000, guid: 7d4da2d16c24c8c40a0300f466e1c2b9, type: 3}
       propertyPath: m_RootOrder
@@ -682,6 +698,7 @@ GameObject:
   - component: {fileID: 1338461705}
   - component: {fileID: 1338461704}
   - component: {fileID: 1338461706}
+  - component: {fileID: 1338461707}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -739,6 +756,7 @@ MonoBehaviour:
   - {fileID: 1338461696}
   - {fileID: 1338461703}
   - {fileID: 1338461705}
+  - {fileID: 1338461707}
   - {fileID: 1338461704}
   - {fileID: 1338461706}
   suppressAllAutoSelections: 0
@@ -769,7 +787,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1338461692}
   selectedCommands:
-  - {fileID: 1338461700}
+  - {fileID: 1338461707}
   variables: []
   description: 
   stepPause: 0
@@ -1117,6 +1135,23 @@ MonoBehaviour:
     stringVal: MfTeleports
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1338461707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338461690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 92339c39b4ec0504ea8f1267f2556eac, type: 3}
+  volume: 0.4
+  waitUntilFinished: 0
 --- !u!1001 &1374473722
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(manaBar.SpendMana);
+        //Debug.Log(manaBar.SpendMana);
         //Debug.Log(teleportMode);
         if(clone != null)
         {
@@ -50,6 +50,7 @@ public class Teleport : MonoBehaviour
         {
             teleportMode = false;
             manaBar.SpendMana = false;
+            FindObjectOfType<AudioManager>().Play("Teleport");
             Teleport();
         }
 

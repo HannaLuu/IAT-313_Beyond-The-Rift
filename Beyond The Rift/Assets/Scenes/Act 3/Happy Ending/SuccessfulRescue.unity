@@ -1244,6 +1244,8 @@ GameObject:
   - component: {fileID: 1552781693}
   - component: {fileID: 1552781695}
   - component: {fileID: 1552781694}
+  - component: {fileID: 1552781696}
+  - component: {fileID: 1552781697}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1297,6 +1299,7 @@ MonoBehaviour:
   - {fileID: 1552781680}
   - {fileID: 1552781679}
   - {fileID: 1552781681}
+  - {fileID: 1552781696}
   - {fileID: 1552781682}
   - {fileID: 1552781694}
   - {fileID: 1552781683}
@@ -1307,6 +1310,7 @@ MonoBehaviour:
   - {fileID: 1552781690}
   - {fileID: 1552781695}
   - {fileID: 1552781689}
+  - {fileID: 1552781697}
   - {fileID: 1552781688}
   - {fileID: 1552781691}
   - {fileID: 1552781692}
@@ -1339,7 +1343,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1552781672}
   selectedCommands:
-  - {fileID: 1552781695}
+  - {fileID: 1552781697}
   variables:
   - {fileID: 1552781675}
   description: 
@@ -1904,6 +1908,41 @@ MonoBehaviour:
     booleanVal: 0
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &1552781696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552781670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 92339c39b4ec0504ea8f1267f2556eac, type: 3}
+  volume: 0.3
+  waitUntilFinished: 0
+--- !u!114 &1552781697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552781670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: a5c760bef6b8af142bfaae19f875fd56, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1001 &1783831757
 PrefabInstance:
   m_ObjectHideFlags: 0
