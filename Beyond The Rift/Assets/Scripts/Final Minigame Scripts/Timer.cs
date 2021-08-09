@@ -15,14 +15,18 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeText.text = "Time Left: " + timeStart.ToString();
+        // timeText.text = "Time Left: " + timeStart.ToString();
+        timeText.text = timeStart.ToString();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         timeStart -= Time.deltaTime;
-        timeText.text = "Time Left: " + Mathf.Round(timeStart).ToString();
+        // timeText.text = "Time Left: " + Mathf.Round(timeStart).ToString();
+        timeText.text = Mathf.Round(timeStart).ToString();
+
 
         if (timeStart <= 0)
         {
