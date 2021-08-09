@@ -1231,6 +1231,7 @@
             <e p="Timer.cs" t="Include" />
           </e>
           <e p="FreezeAll.cs" t="Include" />
+          <e p="MassacreScript.cs" t="Include" />
           <e p="Menu Scripts" t="Include">
             <e p="MainMenu.cs" t="Include" />
           </e>
