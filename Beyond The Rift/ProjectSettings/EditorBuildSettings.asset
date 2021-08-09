@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act 1/RiftwalkersCome.unity
     guid: 4344548dde176854ba7283644c8a4fd7
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Bad Ending/MjollDies.unity
+    guid: 65d1cd6de15b36b498b7aa82abbd3f70
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Bad Ending/HellaBadMountain.unity
+    guid: e1c6104b6a2d99f479a97416ddd83580
   m_configObjects: {}

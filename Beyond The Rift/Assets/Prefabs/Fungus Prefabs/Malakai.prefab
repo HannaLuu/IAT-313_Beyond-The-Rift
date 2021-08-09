@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Malakai
-  nameColor: {r: 0.29803923, g: 1, b: 0.43137255, a: 1}
+  nameColor: {r: 0, g: 1, b: 0.18994403, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b6bdb57f9e4004340880397a2e0df153, type: 3}
