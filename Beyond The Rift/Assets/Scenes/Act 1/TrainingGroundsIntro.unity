@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bjorn Ironhand
       objectReference: {fileID: 0}
+    - target: {fileID: 7288508746563927100, guid: 44f77f1138178544185a1e8ead7f531a, type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7288508746563927101, guid: 44f77f1138178544185a1e8ead7f531a, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -945,6 +949,8 @@ GameObject:
   - component: {fileID: 1289771258}
   - component: {fileID: 1289771251}
   - component: {fileID: 1289771259}
+  - component: {fileID: 1289771260}
+  - component: {fileID: 1289771261}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1011,7 +1017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.15753
     y: -43.721428
-    width: 142.10522
+    width: 102.10523
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1020,6 +1026,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1289771246}
   commandList:
+  - {fileID: 1289771261}
+  - {fileID: 1289771260}
   - {fileID: 1289771284}
   - {fileID: 1289771273}
   - {fileID: 1289771259}
@@ -1055,7 +1063,7 @@ MonoBehaviour:
   scrollPos: {x: 448.67395, y: 395.36935}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 712
   zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
@@ -1065,7 +1073,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1289771247}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1289771261}
   variables:
   - {fileID: 1289771254}
   description: 
@@ -1336,6 +1345,41 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1289771260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: ea4593f9e739b2f4980e07e1f18d2412, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1289771261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  volume: 0.1
+  fadeDuration: 0.5
+  waitUntilFinished: 1
 --- !u!114 &1289771273
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2988,6 +3032,38 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1741308092}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: audioMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: inputSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 267323b7ac5b63d4e93e90a408b56d28, type: 3}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: beepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c89d9cff88a1247d3be3911553d119a2, type: 3}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: beepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1a1543b7873994f51911c9766dd6d83f, type: 3}
+    - target: {fileID: 8371857684657578967, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: beepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e8286c2463884bbaa62cddbee8c7cb3, type: 3}
+    - target: {fileID: 8371857684657578969, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8371857684657578970, guid: 0247a02e83449bc429f89281fee6f597, type: 3}
       propertyPath: m_Name
       value: SayDialog

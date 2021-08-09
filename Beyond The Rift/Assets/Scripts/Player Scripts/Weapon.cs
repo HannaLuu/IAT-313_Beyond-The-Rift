@@ -13,6 +13,7 @@ public class Weapon : MonoBehaviour
     public Teleport teleportScript;
     public Animator animator;
     public ManaBar manaBar;
+    public AudioManager audioManager;
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +24,15 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= nextAttackTime && teleportScript.teleportMode == false)
+        if(Time.time >= nextAttackTime && teleportScript.teleportMode == false && manaBar.CanSpendMana(manaBar.manaCost) == true)
         {
             if (Input.GetButtonDown("Fire1"))
             {
                 Shoot();
                 manaBar.SpendMana1(manaCost);
                 animator.SetTrigger("Attack");
+                //audioManager.Play("PlayerAttack");
+                FindObjectOfType<AudioManager>().Play("PlayerAttack");
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
