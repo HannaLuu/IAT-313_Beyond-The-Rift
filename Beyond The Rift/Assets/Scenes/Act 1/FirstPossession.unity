@@ -525,7 +525,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1046045674}
   selectedCommands:
-  - {fileID: 1046045686}
+  - {fileID: 1046045683}
   variables:
   - {fileID: 1046045679}
   description: 
@@ -588,9 +588,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2126320619}
+  character: {fileID: 1446070845}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: 86d2ba2f144ac0b45b04359a6521d059, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1957282305}
@@ -634,7 +634,7 @@ MonoBehaviour:
   storyText: YES...LET THE HATE FLOW THROUGH YOU, BJORN.
   description: 
   character: {fileID: 1446070845}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -677,7 +677,7 @@ MonoBehaviour:
   storyText: WHAT IS THAT...KILL HIM, NOW!!!
   description: 
   character: {fileID: 1607923927}
-  portrait: {fileID: 21300000, guid: 90f175ac636b4d94f93e73985c6312de, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -705,11 +705,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1607923927}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 90f175ac636b4d94f93e73985c6312de, type: 3}
+  portrait: {fileID: 21300000, guid: aa6f9e5659515af43a170b3f85535b86, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 39691930}
-  facing: 0
+  facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -734,7 +734,7 @@ MonoBehaviour:
   storyText: DIE.
   description: 
   character: {fileID: 1446070845}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1224,17 +1224,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a8c2180117884d8506d0970960229, type: 3}
---- !u!114 &2126320619 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7288508746563927100, guid: 44f77f1138178544185a1e8ead7f531a, type: 3}
-  m_PrefabInstance: {fileID: 1960383987}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5402461707490317898
 PrefabInstance:
   m_ObjectHideFlags: 0

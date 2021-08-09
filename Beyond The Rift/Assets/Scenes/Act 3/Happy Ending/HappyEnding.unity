@@ -668,6 +668,7 @@ GameObject:
   - component: {fileID: 1845536360}
   - component: {fileID: 1845536361}
   - component: {fileID: 1845536362}
+  - component: {fileID: 1845536363}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -727,6 +728,7 @@ MonoBehaviour:
   - {fileID: 1845536361}
   - {fileID: 1845536352}
   - {fileID: 1845536362}
+  - {fileID: 1845536363}
   suppressAllAutoSelections: 0
 --- !u!114 &1845536349
 MonoBehaviour:
@@ -755,7 +757,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1845536348}
   selectedCommands:
-  - {fileID: 1845536352}
+  - {fileID: 1845536363}
   variables: []
   description: 
   stepPause: 0
@@ -825,8 +827,8 @@ MonoBehaviour:
   display: 3
   stage: {fileID: 0}
   character: {fileID: 1028979461}
-  replacedCharacter: {fileID: 1658603765}
-  portrait: {fileID: 21300000, guid: 6a8979fcc937b574d8b0a2d7c7e08def, type: 3}
+  replacedCharacter: {fileID: 644500727}
+  portrait: {fileID: 21300000, guid: 9bff4b46152fbf046b33ca7c5d872d68, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -856,11 +858,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 644500727}
   replacedCharacter: {fileID: 1569625522}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: 2d4b257546cedd14d8ea1f32c48bbccf, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
-  facing: 1
+  facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -886,11 +888,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1569625522}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 21300000, guid: 16b77e31776318846bcc9457b0ed9a14, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 237624544}
-  facing: 0
+  toPosition: {fileID: 237624546}
+  facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -916,11 +918,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1658603765}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ef39a2b6d74885f4ea4c2c74c5857094, type: 3}
+  portrait: {fileID: 21300000, guid: 8f2c9bebbb0cf294bb5aea6d1cdc4232, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 237624546}
-  facing: 0
+  toPosition: {fileID: 237624544}
+  facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -1016,7 +1018,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Only if you promise to finish your food.
+  storyText: Only if you promise to finish your food. Leave some for your siblings
+    too--
   description: 
   character: {fileID: 1569625522}
   portrait: {fileID: 0}
@@ -1100,6 +1103,33 @@ MonoBehaviour:
   storyText: "No fighting on the dinner table or I\u2019ll eat everyone\u2019s food!"
   description: 
   character: {fileID: 1028979461}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1845536363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845536346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  storyText: Mom!!!!
+  description: 
+  character: {fileID: 1658603765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

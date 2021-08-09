@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 1552781690}
   - component: {fileID: 1552781692}
   - component: {fileID: 1552781691}
+  - component: {fileID: 1552781693}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -784,6 +785,7 @@ MonoBehaviour:
   - {fileID: 1552781688}
   - {fileID: 1552781691}
   - {fileID: 1552781692}
+  - {fileID: 1552781693}
   suppressAllAutoSelections: 0
 --- !u!114 &1552781673
 MonoBehaviour:
@@ -812,7 +814,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1552781672}
   selectedCommands:
-  - {fileID: 1552781692}
+  - {fileID: 1552781693}
   variables:
   - {fileID: 1552781675}
   description: 
@@ -955,7 +957,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 2025896594}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: dc0db19894294d042befba068242e888, type: 3}
   offset: 0
   fromPosition: {fileID: 694201176}
   toPosition: {fileID: 694201175}
@@ -985,7 +987,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 874373237}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3bdb2c3114a0361438f28e0e530a1bd0, type: 3}
+  portrait: {fileID: 21300000, guid: d7332ff52b7f14f419b72093a4062880, type: 3}
   offset: 0
   fromPosition: {fileID: 694201178}
   toPosition: {fileID: 694201177}
@@ -1014,7 +1016,7 @@ MonoBehaviour:
   storyText: AGAH....UNCE AJA....GMMP....ATSUHHH....
   description: 
   character: {fileID: 874373237}
-  portrait: {fileID: 21300000, guid: 3bdb2c3114a0361438f28e0e530a1bd0, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1042,7 +1044,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 874373237}
   replacedCharacter: {fileID: 874373237}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: b6bdb57f9e4004340880397a2e0df153, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 694201177}
@@ -1071,7 +1073,7 @@ MonoBehaviour:
   storyText: .....
   description: 
   character: {fileID: 874373237}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: b6bdb57f9e4004340880397a2e0df153, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1099,7 +1101,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 689298695}
   replacedCharacter: {fileID: 2025896594}
-  portrait: {fileID: 21300000, guid: 6a8979fcc937b574d8b0a2d7c7e08def, type: 3}
+  portrait: {fileID: 21300000, guid: f222c38f4a9e9e94bb9f8edaa379a8ed, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1156,7 +1158,7 @@ MonoBehaviour:
     the air is as fresh as the bright blue sky...)"
   description: 
   character: {fileID: 874373237}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1211,7 +1213,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 874373237}
   replacedCharacter: {fileID: 874373237}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 21300000, guid: 0b309a192225f37428dcb64e139b8d3f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1237,7 +1239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "(I\u2019ve never felt so at peace...who is this woman?)"
+  storyText: "(I\u2019ve never felt so at peace...who is this woman? Is this her
+    \"gift?\")"
   description: 
   character: {fileID: 874373237}
   portrait: {fileID: 0}
@@ -1268,7 +1271,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 2025896594}
   replacedCharacter: {fileID: 689298695}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: 31ebfe48eab04c543a8d128101f10d03, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1307,6 +1310,25 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1552781693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552781670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: PostRescue
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1001 &1783831757
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4,47 +4,48 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-	public int health = 100;
+    public int health = 100;
 
-	public Animator animator;
-	public GameObject deathEffect;
-	public Transform player;
+    public Animator animator;
+    public GameObject deathEffect;
+    public Transform player;
 
-	public bool isFlipped = false;
+    public bool isFlipped = false;
 
-	public void TakeDamage(int damage)
-	{
-		health -= damage;
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
 
-		if (health <= 0)
-		{
-			Die();
-		}
-	}
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
 
-	void Die()
-	{
-		EnemyCounter.enemiesKilled = EnemyCounter.enemiesKilled += 1;
-		Instantiate(deathEffect, transform.position, Quaternion.identity);
+    void Die()
+    {
+        EnemyCounter.enemiesKilled = EnemyCounter.enemiesKilled += 1;
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
-	public void LookAtPlayer()
+    public void LookAtPlayer()
     {
-		Debug.Log("LOOK AT ME BITCH");
-		Vector3 flipped = transform.localScale;
-		flipped.z *= -1f;
+        Debug.Log("LOOK AT ME BITCH");
+        Vector3 flipped = transform.localScale;
+        flipped.z *= -1f;
 
-		if(transform.position.x > player.position.x && isFlipped)
+        if (transform.position.x > player.position.x && isFlipped)
         {
-			transform.localScale = flipped;
-			transform.Rotate(0f, 180f, 0f);
-			isFlipped = false;
-        } else if (transform.position.x < player.position.x && !isFlipped)
-		{
-			transform.localScale = flipped;
-			transform.Rotate(0f, 180f, 0f);
-			isFlipped = true;
-		}
-	}
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = false;
+        }
+        else if (transform.position.x < player.position.x && !isFlipped)
+        {
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = true;
+        }
+    }
 }

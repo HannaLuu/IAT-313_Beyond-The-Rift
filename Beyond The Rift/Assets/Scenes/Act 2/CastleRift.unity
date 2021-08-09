@@ -856,7 +856,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1532982651}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1532982664}
   variables:
   - {fileID: 1532982654}
   description: 
@@ -972,7 +973,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1380055891}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: dc0db19894294d042befba068242e888, type: 3}
   offset: 0
   fromPosition: {fileID: 1899819092}
   toPosition: {fileID: 702192259}
@@ -1029,7 +1030,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1209039219}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 2ba0d596450f6ef4cbc341b74e8ccf14, type: 3}
+  portrait: {fileID: 21300000, guid: fee0dd03a2759d94882930cf77674cf7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1926553928}
@@ -1086,11 +1087,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 222948336}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f0266f5f31196d34ba4379e7450fd0f6, type: 3}
+  portrait: {fileID: 21300000, guid: ac84a83a1defdfd41962727889e41df8, type: 3}
   offset: 0
   fromPosition: {fileID: 1926553928}
   toPosition: {fileID: 445542132}
-  facing: 0
+  facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -1115,7 +1116,7 @@ MonoBehaviour:
   storyText: What the--
   description: 
   character: {fileID: 222948336}
-  portrait: {fileID: 21300000, guid: f0266f5f31196d34ba4379e7450fd0f6, type: 3}
+  portrait: {fileID: 21300000, guid: ac84a83a1defdfd41962727889e41df8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1170,7 +1171,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 245273611}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3bdb2c3114a0361438f28e0e530a1bd0, type: 3}
+  portrait: {fileID: 21300000, guid: d7332ff52b7f14f419b72093a4062880, type: 3}
   offset: 0
   fromPosition: {fileID: 1899819092}
   toPosition: {fileID: 1899819092}

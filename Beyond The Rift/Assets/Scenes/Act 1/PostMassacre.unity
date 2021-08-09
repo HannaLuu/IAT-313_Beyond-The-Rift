@@ -1635,7 +1635,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 93
+    width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1695,7 +1695,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1928146426}
   selectedCommands:
-  - {fileID: 1928146451}
+  - {fileID: 1928146441}
   variables:
   - {fileID: 1928146430}
   description: 
@@ -1811,7 +1811,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 847678977}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 82c612b631de4ea49a8e893f7cd11c84, type: 3}
+  portrait: {fileID: 21300000, guid: 37ab37e2c16644b478226f41728e9b0d, type: 3}
   offset: 0
   fromPosition: {fileID: 1532261318}
   toPosition: {fileID: 1532261317}
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   storyText: What happened here--everyone is dead? Wh--
   description: 
   character: {fileID: 847678977}
-  portrait: {fileID: 21300000, guid: c01c3005252bb894088d0a1520ef1b4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1868,7 +1868,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 847678977}
   replacedCharacter: {fileID: 847678977}
-  portrait: {fileID: 21300000, guid: c01c3005252bb894088d0a1520ef1b4c, type: 3}
+  portrait: {fileID: 21300000, guid: 9ef20e0d385113241956fc9def4f4829, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1594922249}
   replacedCharacter: {fileID: 847678977}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: 86d2ba2f144ac0b45b04359a6521d059, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   storyText: YOU KILLED THEM, BJORN. GOOD, GOOD...
   description: 
   character: {fileID: 1594922249}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1982,7 +1982,7 @@ MonoBehaviour:
     BJORN, MORE!
   description: 
   character: {fileID: 1594922249}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2037,7 +2037,7 @@ MonoBehaviour:
     sorry everyone. I'm so sorry...)
   description: 
   character: {fileID: 847678977}
-  portrait: {fileID: 21300000, guid: c01c3005252bb894088d0a1520ef1b4c, type: 3}
+  portrait: {fileID: 21300000, guid: 9ef20e0d385113241956fc9def4f4829, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1594922249}
   replacedCharacter: {fileID: 847678977}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: 86d2ba2f144ac0b45b04359a6521d059, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2187,7 +2187,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 847678977}
   replacedCharacter: {fileID: 1594922249}
-  portrait: {fileID: 21300000, guid: c01c3005252bb894088d0a1520ef1b4c, type: 3}
+  portrait: {fileID: 21300000, guid: 9ef20e0d385113241956fc9def4f4829, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}

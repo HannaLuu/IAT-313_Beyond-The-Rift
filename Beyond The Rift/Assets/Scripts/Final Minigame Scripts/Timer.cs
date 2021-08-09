@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Fungus;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -25,7 +26,14 @@ public class Timer : MonoBehaviour
 
         if (timeStart <= 0)
         {
-            myFlowchart.ExecuteBlock("Finish Minigame");
+            if (EnemyCounter.enemiesKilled > 18)
+            {
+                SceneManager.LoadScene("SuccessfulRescue");
+            }
+            else if (EnemyCounter.enemiesKilled < 18)
+            {
+                SceneManager.LoadScene("FailedRescue");
+            }
         }
     }
 
@@ -41,6 +49,6 @@ public class Timer : MonoBehaviour
 
     public void decreaseTimer()
     {
-        timeStart -= 10;
+        timeStart -= 15;
     }
 }

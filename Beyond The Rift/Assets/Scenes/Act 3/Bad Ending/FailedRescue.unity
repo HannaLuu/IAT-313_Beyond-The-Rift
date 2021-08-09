@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 1338461703}
   - component: {fileID: 1338461705}
   - component: {fileID: 1338461704}
+  - component: {fileID: 1338461706}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -397,6 +398,7 @@ MonoBehaviour:
   - {fileID: 1338461703}
   - {fileID: 1338461705}
   - {fileID: 1338461704}
+  - {fileID: 1338461706}
   suppressAllAutoSelections: 0
 --- !u!114 &1338461693
 MonoBehaviour:
@@ -425,7 +427,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1338461692}
   selectedCommands:
-  - {fileID: 1338461702}
+  - {fileID: 1338461706}
   variables: []
   description: 
   stepPause: 0
@@ -489,7 +491,7 @@ MonoBehaviour:
     BASTARDS!!!!"
   description: 
   character: {fileID: 1374473723}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -544,7 +546,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1534400761}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3bdb2c3114a0361438f28e0e530a1bd0, type: 3}
+  portrait: {fileID: 21300000, guid: d7332ff52b7f14f419b72093a4062880, type: 3}
   offset: 0
   fromPosition: {fileID: 127312442}
   toPosition: {fileID: 127312441}
@@ -573,7 +575,7 @@ MonoBehaviour:
   storyText: Make sure you put her head in a bag. Kill the cat while you're at it.
   description: 
   character: {fileID: 2141866671}
-  portrait: {fileID: 21300000, guid: f0266f5f31196d34ba4379e7450fd0f6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -601,7 +603,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1374473723}
   replacedCharacter: {fileID: 2141866671}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: dc0db19894294d042befba068242e888, type: 3}
   offset: 0
   fromPosition: {fileID: 127312444}
   toPosition: {fileID: 0}
@@ -631,11 +633,11 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 2141866671}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f0266f5f31196d34ba4379e7450fd0f6, type: 3}
+  portrait: {fileID: 21300000, guid: ac84a83a1defdfd41962727889e41df8, type: 3}
   offset: 0
   fromPosition: {fileID: 127312443}
   toPosition: {fileID: 127312444}
-  facing: 0
+  facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -742,7 +744,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1534400761}
   replacedCharacter: {fileID: 1534400761}
-  portrait: {fileID: 21300000, guid: d87d561020e082b429faabe6305e0f2d, type: 3}
+  portrait: {fileID: 21300000, guid: b6bdb57f9e4004340880397a2e0df153, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -754,6 +756,25 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1338461706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338461690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MfTeleports
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1001 &1374473722
 PrefabInstance:
   m_ObjectHideFlags: 0

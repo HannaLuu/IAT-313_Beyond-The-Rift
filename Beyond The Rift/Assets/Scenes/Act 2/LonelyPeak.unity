@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &37519577
 Transform:
   m_ObjectHideFlags: 0
@@ -347,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &272537635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -928,6 +928,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &480012772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2553076118333116687, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+  m_PrefabInstance: {fileID: 341363589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e3d54bfc2b4f74c893d714ab6435bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &562478862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1233,10 +1244,18 @@ PrefabInstance:
     - target: {fileID: 2899458939989268436, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: healthBar
       value: 
+      objectReference: {fileID: 1654149425}
+    - target: {fileID: 2899458939989268436, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910784, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: manaBar
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763976907407910784, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910784, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: teleportScript
@@ -1245,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: manaBar
       value: 
+      objectReference: {fileID: 480012772}
+    - target: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910785, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: clonePrefab
@@ -1257,6 +1280,10 @@ PrefabInstance:
     - target: {fileID: 7763976907407910788, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_Size.x
       value: 0.5403234
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763976907407910788, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910791, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_Controller
@@ -1310,11 +1337,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7763976907407910794, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763976907407910795, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7763976907407910799, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7763976907407910789, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5f085bc394875e54496f9544f72c45b2, type: 3}
 --- !u!114 &1069095459 stripped
 MonoBehaviour:
@@ -1322,7 +1358,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1069095458}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b99856446e405804cb41da474bf7aa02, type: 3}
   m_Name: 
@@ -1426,7 +1462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1102289982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1508,7 +1544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1377659578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1590,7 +1626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1444389743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1672,7 +1708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1546861286
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1738,6 +1774,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1654149425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2553076116863432563, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+  m_PrefabInstance: {fileID: 341363589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5084e9e96f2344aa7011b19d619a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737140418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,6 +1868,8 @@ GameObject:
   - component: {fileID: 1737140491}
   - component: {fileID: 1737140492}
   - component: {fileID: 1737140493}
+  - component: {fileID: 1737140495}
+  - component: {fileID: 1737140494}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1859,7 +1908,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 124.46808
+    width: 79.31818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1871,6 +1920,8 @@ MonoBehaviour:
   - {fileID: 1737140425}
   - {fileID: 1737140423}
   - {fileID: 1737140427}
+  - {fileID: 1737140495}
+  - {fileID: 1737140494}
   - {fileID: 1737140426}
   - {fileID: 1737140428}
   - {fileID: 1737140491}
@@ -1896,11 +1947,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -116.17881, y: 202.56349}
+  scrollPos: {x: 17.935188, y: 227.98526}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1909,7 +1960,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1737140465}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1737140492}
   variables:
   - {fileID: 1737140424}
   description: 
@@ -2005,7 +2057,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 821622164}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 21300000, guid: 0b309a192225f37428dcb64e139b8d3f, type: 3}
   offset: 0
   fromPosition: {fileID: 159631489}
   toPosition: {fileID: 159631490}
@@ -2055,7 +2107,7 @@ MonoBehaviour:
     damn head off...
   description: 
   character: {fileID: 821622164}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2083,7 +2135,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1978117561}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 21300000, guid: 31ebfe48eab04c543a8d128101f10d03, type: 3}
   offset: 0
   fromPosition: {fileID: 159631491}
   toPosition: {fileID: 159631492}
@@ -2136,10 +2188,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Khajiit?! I thought you d--
+  storyText: WHAT THE--PISS OFF, GHOST!
   description: 
   character: {fileID: 821622164}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2163,10 +2215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: I'm fast, remember?
+  storyText: I'm alive, idiot. You're forgetting that I have super speed.
   description: 
   character: {fileID: 1978117561}
-  portrait: {fileID: 21300000, guid: 6d932ba3e744cd84fa70aa0aa948aec7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2220,7 +2272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.93777
     y: 197.08258
-    width: 73.40425
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2246,9 +2298,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 330.62866
+    x: 329.52975
     y: 121.82466
-    width: 92.55319
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2276,7 +2328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 333.72144
     y: 42.443283
-    width: 80.85106
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2899,7 +2951,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 565.495
     y: 116.42253
-    width: 124.46808
+    width: 81.5909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4088,9 +4140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 843.3304
-    y: 95.81328
-    width: 107.44681
+    x: 829.6691
+    y: 110.5485
+    width: 64.54545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4161,9 +4213,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 842.62805
-    y: 12.479042
-    width: 114.893616
+    x: 835.80994
+    y: 21.569954
+    width: 72.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6535,7 +6587,7 @@ MonoBehaviour:
   storyText: I should teleport to a tavern and steal some Windrune Hone--
   description: 
   character: {fileID: 821622164}
-  portrait: {fileID: 21300000, guid: 64bd33c7848025e43851ad09f77c18e9, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6583,6 +6635,62 @@ MonoBehaviour:
     stringVal: HellaBadEnding
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1737140494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737140418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  storyText: He spends another two years in solitude, as he perceived himself to
+    be a threat to civilization...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1737140495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737140418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  storyText: After the massacre, Bjorn teleported himself far far away, to a mountain
+    called The Lonely Peak.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1792298788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6658515209092856597, guid: 2304405a06debb44f86ce36aca73d86d, type: 3}
