@@ -1271,6 +1271,7 @@ GameObject:
   - component: {fileID: 1869553861}
   - component: {fileID: 1869553860}
   - component: {fileID: 1869553859}
+  - component: {fileID: 1869553879}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1321,7 +1322,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 92339c39b4ec0504ea8f1267f2556eac, type: 3}
   volume: 0.4
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &1869553861
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1363,7 +1364,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 344203397}
+  character: {fileID: 1308885312}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: b6bdb57f9e4004340880397a2e0df153, type: 3}
   offset: 0
@@ -1794,6 +1795,25 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &1869553879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869553858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: BadCredits
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1869553880
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1825,7 +1845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 71
-    width: 101
+    width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1854,6 +1874,7 @@ MonoBehaviour:
   - {fileID: 1869553861}
   - {fileID: 1869553860}
   - {fileID: 1869553859}
+  - {fileID: 1869553879}
   suppressAllAutoSelections: 0
 --- !u!114 &1869553882
 MonoBehaviour:
@@ -1871,7 +1892,7 @@ MonoBehaviour:
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 639
+  blockViewHeight: 643
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1882,7 +1903,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1869553881}
   selectedCommands:
-  - {fileID: 1869553859}
+  - {fileID: 1869553862}
   variables: []
   description: 
   stepPause: 0
