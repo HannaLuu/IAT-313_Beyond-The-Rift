@@ -72,3 +72,12 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: BjornHit
+    clip: {fileID: 8300000, guid: 3ec946f104db9fa4ca911e5bde5ccbba, type: 3}
+    volume: 0.4
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.3
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

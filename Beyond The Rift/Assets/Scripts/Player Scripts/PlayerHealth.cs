@@ -17,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
 
+        FindObjectOfType<AudioManager>().Play("BjornHit");
+
         if (currentHealth <= 0)
         {
             Die();

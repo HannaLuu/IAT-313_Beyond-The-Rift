@@ -27,6 +27,11 @@ public class ManaBar : MonoBehaviour
         manaAmount = MANA_MAX;
     }
 
+    private void Start()
+    {
+        manaAmount = MANA_MAX;
+    }
+
     private void Update()
     {
         // Debug.Log(manaAmount);
