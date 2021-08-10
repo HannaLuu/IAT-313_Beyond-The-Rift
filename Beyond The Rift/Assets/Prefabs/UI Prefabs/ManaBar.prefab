@@ -52,7 +52,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manaAmount: 100
   manaRegenAmount: 10
-  manaCost: 0.2
+  manaCost: 0.1
+  manaAttackCost: 20
   SpendMana: 0
 --- !u!1 &6809969877499801113
 GameObject:

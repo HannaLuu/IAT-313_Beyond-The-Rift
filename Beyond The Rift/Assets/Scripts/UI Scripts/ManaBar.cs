@@ -13,6 +13,7 @@ public class ManaBar : MonoBehaviour
     public float manaAmount;
     public float manaRegenAmount = 10f;
     public float manaCost = 0.05f;
+    public float manaAttackCost = 20f;
 
     public bool SpendMana;
 

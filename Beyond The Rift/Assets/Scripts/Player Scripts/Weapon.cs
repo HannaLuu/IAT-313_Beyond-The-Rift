@@ -23,7 +23,12 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= nextAttackTime && teleportScript.teleportMode == false && manaBar.CanSpendMana(manaBar.manaCost) == true)
+        if (Input.GetButtonDown("Fire1") && manaBar.CanSpendMana(manaBar.manaAttackCost) == false)
+        {
+            FindObjectOfType<AudioManager>().Play("OutOfMana");
+        }
+
+        if (Time.time >= nextAttackTime && teleportScript.teleportMode == false && manaBar.CanSpendMana(manaBar.manaAttackCost) == true)
         {
             if (Input.GetButtonDown("Fire1"))
             {
