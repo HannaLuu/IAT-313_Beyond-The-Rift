@@ -970,7 +970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6809969876081867172, guid: dbb727165ad40e8478f746a91684ce87, type: 3}
       propertyPath: manaCost
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6809969876081867172, guid: dbb727165ad40e8478f746a91684ce87, type: 3}
       propertyPath: manaAmount
