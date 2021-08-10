@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538ad2dc1e894e043b39e2b4edc36aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRange: 20
+  visionRange: 15
 --- !u!1101 &7183187981790418439
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
