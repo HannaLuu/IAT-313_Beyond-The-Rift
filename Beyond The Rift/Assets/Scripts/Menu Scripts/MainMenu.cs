@@ -18,6 +18,6 @@ public class MainMenu : MonoBehaviour
 
     public void PlayCredits()
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("MenuCredits");
     }
 }

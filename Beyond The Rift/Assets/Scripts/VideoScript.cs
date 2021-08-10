@@ -17,6 +17,14 @@ public class VideoScript : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("TrainingGroundsIntro");
+        }
+    }
+
 
     void CheckOver(UnityEngine.Video.VideoPlayer vp)
     {

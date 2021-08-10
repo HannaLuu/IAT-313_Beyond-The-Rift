@@ -15,6 +15,7 @@ public class EnemyCounter : MonoBehaviour
 
     private void Start()
     {
+        enemiesKilled = 0;
         score = GetComponent<Text>();
     }
 

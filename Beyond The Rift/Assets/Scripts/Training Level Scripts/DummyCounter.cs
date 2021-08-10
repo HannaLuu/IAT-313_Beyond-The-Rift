@@ -16,6 +16,6 @@ public class DummyCounter : MonoBehaviour
 
     private void Update()
     {
-        score.text = "Dummies Killed: " + dummiesKilled;
+        score.text = "Vanquished: " + dummiesKilled;
     }
 }

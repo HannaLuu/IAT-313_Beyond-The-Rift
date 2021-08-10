@@ -144,7 +144,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 3042720846474683189, guid: 33b20fadf79444d498bdf3ba65d17d50, type: 3}
+  m_Sprite: {fileID: -4382182834963884410, guid: 1d77c86bf2de17342bdb1b619f0263e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,7 +241,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.51878214, y: 0.8918469}
+  m_Size: {x: 0.5403234, y: 0.8918469}
   m_EdgeRadius: 0
 --- !u!58 &7763976907407910795
 CircleCollider2D:
@@ -284,7 +284,7 @@ Animator:
   m_GameObject: {fileID: 7763976907407910799}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f769b8be9705cc84bb4648450a4a75b1, type: 2}
+  m_Controller: {fileID: 9100000, guid: c2f3df1af90ad2a4ebaa99c1c3895261, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2599187084556335091, guid: cfa632ad7601d0e46bf34baa12ad0ece, type: 3}
   teleportScript: {fileID: 7763976907407910785}
   animator: {fileID: 7763976907407910791}
-  manaBar: {fileID: 6809969876081867172, guid: dbb727165ad40e8478f746a91684ce87, type: 3}
+  manaBar: {fileID: 0}
 --- !u!114 &7763976907407910785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +325,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clonePoint: {fileID: 7763976908550267553}
-  clonePrefab: {fileID: 2706097807650507347, guid: c33be3bfd0c16614b85a4ea88bfe0c67, type: 3}
+  clonePrefab: {fileID: 2706097807650507347, guid: fed85ef73147f1248ab492c01dc34382, type: 3}
   timeManager: {fileID: 0}
   teleportMode: 0
-  manaBar: {fileID: 6809969876081867172, guid: dbb727165ad40e8478f746a91684ce87, type: 3}
+  manaBar: {fileID: 0}
 --- !u!114 &2899458939989268436
 MonoBehaviour:
   m_ObjectHideFlags: 0

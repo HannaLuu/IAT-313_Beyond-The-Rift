@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Act 1/TrainingMinigame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 0f64d622840b8e747ad7c5d94b2de920
-  - enabled: 1
     path: Assets/Scenes/Act 2/Final Minigame.unity
     guid: d3abb51d6359387478bcf548d20d8f96
   - enabled: 1
@@ -71,4 +68,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act 3/Bad Ending/HellaBadMountain.unity
     guid: e1c6104b6a2d99f479a97416ddd83580
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Credts/BadCredits.unity
+    guid: 8ecdc9e8f907d7e42b3ec228d3387333
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Credts/HappyCredits.unity
+    guid: 669f821830eac0c46b46e27ee3f7beaa
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Credts/MenuCredits.unity
+    guid: bdce6cb6b5c05674181920a253c2bb8f
+  - enabled: 1
+    path: Assets/Scenes/Act 3/Credts/NeutralCredits.unity
+    guid: e4beef06d3c429d41b3962debb7528de
   m_configObjects: {}

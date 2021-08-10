@@ -239,8 +239,8 @@ GameObject:
   - component: {fileID: 740919284}
   - component: {fileID: 740919288}
   - component: {fileID: 740919289}
-  - component: {fileID: 740919290}
   - component: {fileID: 740919291}
+  - component: {fileID: 740919290}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -320,7 +320,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 740919285}
   selectedCommands:
-  - {fileID: 740919291}
+  - {fileID: 740919290}
   variables: []
   description: 
   stepPause: 0
@@ -410,11 +410,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 740919283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 5
   indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: NeutralCredits
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &740919291
 MonoBehaviour:
   m_ObjectHideFlags: 0
