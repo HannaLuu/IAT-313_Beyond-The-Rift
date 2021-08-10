@@ -36,7 +36,7 @@ public class Timer : MonoBehaviour
             }
             else if (EnemyCounter.enemiesKilled < 15)
             {
-                SceneManager.LoadScene("FailedRescue");
+                SceneManager.LoadScene("MjollDies");
             }
         }
     }

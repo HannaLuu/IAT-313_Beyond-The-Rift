@@ -203,7 +203,7 @@ Transform:
   m_LocalScale: {x: 57.228188, y: 57.228188, z: 57.228195}
   m_Children: []
   m_Father: {fileID: 2553076116864909835}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!1 &237861811
 GameObject:
@@ -326,7 +326,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!1 &519420028
@@ -431,99 +431,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &732496451
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 732496452}
-  - component: {fileID: 732496454}
-  - component: {fileID: 732496453}
-  - component: {fileID: 732496455}
-  m_Layer: 5
-  m_Name: RP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &732496452
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732496451}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2553076116864909835}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314.9, y: 192.1}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &732496453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732496451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 39c5cbe13986b984f87da06d6e41ca66, type: 3}
-    m_FontSize: 21
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'RP: '
---- !u!222 &732496454
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732496451}
-  m_CullTransparentMesh: 1
---- !u!114 &732496455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732496451}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f366db5277aeeff429412ad450d5805e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myFlowchart: {fileID: 1657018704}
 --- !u!4 &736471454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3433494567687039510, guid: ab6fe7f4f4becf6478874cf008bcee8b, type: 3}
@@ -725,7 +632,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!1 &1020296492
@@ -914,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!1001 &1158489467
@@ -1125,7 +1032,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!1001 &1428720449
@@ -1198,7 +1105,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!4 &1528928900 stripped
@@ -1273,7 +1180,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102
     y: 91
-    width: 103
+    width: 143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1311,7 +1218,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1657018703}
+  - {fileID: 1657018714}
   selectedCommands: []
   variables:
   - {fileID: 1657018706}
@@ -1385,7 +1292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  targetTextObject: {fileID: 732496451}
+  targetTextObject: {fileID: 2553076116864909842}
   text:
     stringRef: {fileID: 0}
     stringVal: 'RP: {$Var}'
@@ -1407,7 +1314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.35135
     y: 92
-    width: 85
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1586,7 +1493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  targetTextObject: {fileID: 732496451}
+  targetTextObject: {fileID: 2553076116864909842}
   text:
     stringRef: {fileID: 0}
     stringVal: 'RP: {$Var}'
@@ -1638,9 +1545,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 391.38455
+    x: 392.38455
     y: 91.5165
-    width: 101
+    width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1999,7 +1906,7 @@ PrefabInstance:
     - target: {fileID: 6105819751395985535, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
       propertyPath: rpValueText
       value: 
-      objectReference: {fileID: 732496453}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b6b2c02542e6d4d99724db9d009402, type: 3}
 --- !u!114 &2072187653 stripped
@@ -2269,7 +2176,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1025570612, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 614330597128358496, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 614330597128358496, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 186.70001
       objectReference: {fileID: 0}
     - target: {fileID: 1589219342842782645, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
       propertyPath: m_RootOrder
@@ -2575,6 +2490,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 2553076116864909840}
+--- !u!1 &2553076116864909842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 614330597128358499, guid: 5a95ca28891ee6c468eb9767ee2c276a, type: 3}
+  m_PrefabInstance: {fileID: 2553076116864909834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2750587714961755973
 PrefabInstance:
   m_ObjectHideFlags: 0

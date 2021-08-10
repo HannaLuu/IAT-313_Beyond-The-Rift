@@ -13,7 +13,7 @@ public class CreditScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene("Start");
         }

@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manaAmount: 100
-  manaRegenAmount: 10
+  manaRegenAmount: 15
   manaCost: 0.1
   manaAttackCost: 20
   SpendMana: 0

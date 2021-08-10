@@ -21,7 +21,7 @@ public class EnemyCounter : MonoBehaviour
 
     private void Update()
     {
-        score.text = "Enemies Killed: " + enemiesKilled;
+        score.text = "Vanquished: " + enemiesKilled;
 
     }
 }

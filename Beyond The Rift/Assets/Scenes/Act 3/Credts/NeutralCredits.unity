@@ -337,9 +337,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 469014228110236593, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -166
+      objectReference: {fileID: 0}
+    - target: {fileID: 469014228110236593, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41.299988
+      objectReference: {fileID: 0}
     - target: {fileID: 5014138904886948828, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014138906199564704, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 5014138906499924132, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
       propertyPath: m_Pivot.x
@@ -511,7 +523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68
     y: 70
-    width: 96.59794
+    width: 136.59793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -649,8 +661,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 166574057
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: -7172955861199271864, guid: e729b3b111136794d9824f582f81cdba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

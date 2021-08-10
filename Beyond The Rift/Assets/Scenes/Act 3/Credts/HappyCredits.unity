@@ -420,6 +420,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 469014228110236593, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -112.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 469014228110236593, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41.299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 590819422818799942, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590819422818799942, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 2650800127
+      objectReference: {fileID: 0}
     - target: {fileID: 5014138904886948826, guid: b481c971ce0e31e4e972e204663d8c23, type: 3}
       propertyPath: m_Sprite
       value: 
