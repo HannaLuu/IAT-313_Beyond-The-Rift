@@ -100,7 +100,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.06, y: 17.40559}
+    oldSize: {x: 18.06, y: 17.4}
     newSize: {x: 18.06, y: 17.40559}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -135,7 +135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744816442448484083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.3, y: 19.46, z: 0}
+  m_LocalPosition: {x: -39.34, y: 19.46, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 744816443490076569}
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -319638825
   m_SortingLayer: -1
-  m_SortingOrder: -1
+  m_SortingOrder: -99
   m_Sprite: {fileID: -3820184185297985877, guid: e7a005069b27b354da7c50e9aeebdb85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -209,7 +209,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.06, y: 17.40559}
+    oldSize: {x: 18.06, y: 17.4}
     newSize: {x: 18.06, y: 17.40559}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -288,7 +288,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -319638825
   m_SortingLayer: -1
-  m_SortingOrder: -1
+  m_SortingOrder: -77
   m_Sprite: {fileID: -3820184185297985877, guid: e7a005069b27b354da7c50e9aeebdb85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -404,7 +404,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -319638825
   m_SortingLayer: -1
-  m_SortingOrder: -1
+  m_SortingOrder: -88
   m_Sprite: {fileID: -3820184185297985877, guid: e7a005069b27b354da7c50e9aeebdb85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
