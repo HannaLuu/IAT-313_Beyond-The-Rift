@@ -11,6 +11,7 @@ public class DummyCounter : MonoBehaviour
 
     private void Start()
     {
+        dummiesKilled = 0;
         score = GetComponent<Text>();
     }
 
