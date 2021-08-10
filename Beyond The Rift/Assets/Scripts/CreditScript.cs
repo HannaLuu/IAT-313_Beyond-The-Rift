@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class CreditScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void LoadMenu()
     {
-        SceneManager.LoadScene("Intro Video");
+        SceneManager.LoadScene("Start");
     }
 
     private void Update()
